@@ -1,0 +1,75 @@
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* Seletor de tag */
+p {
+    color: red;
+    font-size: 20px;
+}
+
+/* Seletor de classe */
+.texto-verde {
+    color: green;
+}
+
+/* Seletor de ID */
+#texto-azul {
+    color: blue;
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid black;
+}
+
+.texto-blue {
+    color: blue;
+}
+
+.handjet-texto {
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
+
+.titulo {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.paddingEsq {
+    margin-left: 200px;
+}
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #de2e2e;
+}
