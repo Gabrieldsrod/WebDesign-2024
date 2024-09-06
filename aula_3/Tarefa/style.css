@@ -1,7 +1,7 @@
 /* Reset */
 * {
     margin: 0px;
-    padding: 0px;
+
     border: 0px;
     color: #ffffff;
 }
@@ -12,21 +12,27 @@ hr {
 
 body {
     background-color: rgba(0, 0, 0, 0.925);
+    margin-bottom: 40px;
+    font-family: quicksand;
 }
 
 h1 {
-    margin: 20px;
+    margin: 30px;
     font-size: 45px;
     text-align: center;
+    font-family: quicksand;
 }
 
 h2 {
-    margin: 20px;
+    margin: 30px;
+    font-family: quicksand;
 }
 
 h3 {
     margin-top: 15px;
     margin-left: 30px;
+    margin-right: 30px;
+    font-family: quicksand;
 }
 
 nav {
@@ -35,9 +41,42 @@ nav {
     font-family: 'Courier New', Courier, monospace;
 }
 
-li {
+ol {
+    list-style-type: none; /* Remove a numeração padrão */
+    counter-reset: list; /* Reseta o contador */
+    padding-left: 20px;
+    margin-left: 30px;
+}
+
+ol li {
+    margin-bottom: 30px;
+    counter-increment: list; /* Incrementa o contador para cada item da lista */
+    display: flex; /* Usa flex para alinhar número e título na mesma linha */
+    align-items: center; /* Alinha verticalmente o número e o título */
+    margin-top: 30px;
+}
+
+/* Pseudo-elemento para adicionar números romanos personalizados */
+ol li::before {
+    content: counter(list, upper-roman) ". "; /* Algorismos romanos */
+    font-family: quicksand; /* Fonte dos números */
+    color: white; /* Cor branca para os números */
+    font-size: 21.818px; /* Tamanho da fonte dos números */
+    font-weight: bold; /* Negrito para destaque */
+    margin-right: 10px; /* Espaçamento entre o número e o título */
+}
+
+.texto-margeado {
+    margin-right: 90px;
+}
+
+.titulo-ordenado {
+    margin: 0px;
+}
+
+li.bar {
     display: inline;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 nav a {
@@ -48,26 +87,44 @@ nav a {
 }
 
 nav a:hover {
-    color: #8a8a8a;
-    font-size: 18px;
+    color: #b1b1b1;
+    font-size: 20px;
 }
 
-img {
+img.padrao {
     border-radius: 10%;
     border: 3px outset rgb(255, 255, 255);
     margin: 20px;
     margin-left: 60px;
     
     padding: 5px;
-    height: 190px;
+    height: 280px;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.fotografia {
+    padding: 10px;
+    border: 3px outset rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.952)
+}
+img.fotografia-288 {
+    padding: 10px;
+    height: 288px;
+}
+img.fotografia-400 {
+    padding: 10px;
+    height: 400px;
 }
 
 p {
     font-family: quicksand;
     text-align: justify;
     margin-bottom: 8px;
-    margin-left: 20px;
-    margin-right: 30%;
+    margin-left: 40px;
+    margin-right: 40px;
     text-indent: 5%;
 }
 
@@ -81,4 +138,9 @@ p {
 
 .margem {
     margin: 25px;
+}
+
+.pad {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
