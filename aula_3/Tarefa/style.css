@@ -100,6 +100,16 @@ img.padrao {
     padding: 5px;
     height: 280px;
 }
+img.perfil {
+    border-radius: 10%;
+    border: 3px outset rgb(255, 255, 255);
+    margin: 20px;
+    margin-left: 60px;
+    
+    padding: 5px;
+    height: 180px;
+}
+
 img.center {
     display: block;
     margin-left: auto;
