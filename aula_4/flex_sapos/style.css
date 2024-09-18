@@ -55,8 +55,8 @@ nav {
 
 h1{
     text-align: center;
-    margin: 10px;
     margin: 0 auto;
+    margin-top: 15px;
 }
 
 div {
@@ -64,12 +64,13 @@ div {
     width: 550px;
     margin: 0 auto;
     margin-bottom: 15px;
-    border: 2px solid;
-    background-color: #0d7a81;
+    border: 4px solid #094c6b;
+    border-radius: 2%;
+    background-color: #094c6b;
 }
 
 body {
-    background-color: rgb(90, 185, 90);
+    background-color: rgb(80, 148, 80);
     /* margin-left: 555px;
     margin-right: 555px; */
     font-family: Arial, sans-serif;
