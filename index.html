@@ -1,40 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hub - Tarefas</title>
+    <title>Organizador de tarefas</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #464646;
-            color: #333;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #c22727, #000000);
+            color: white;
             margin: 0;
-            padding: 20px;
-        }
-        h1 {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
             text-align: center;
-            color: #ffffff;
+            overflow: hidden;
         }
+
+        h1 {
+            font-size: 3rem;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
         .task-list {
             list-style-type: none;
             padding: 0;
+            background: #df36278e;
+            color: rgb(214, 21, 21);
+            padding: 20px;
+            border-radius: 12px;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
         }
+
         .task-list li {
             margin: 10px 0;
         }
+
         .task-list a {
             text-decoration: none;
             color: #ffffff;
-            background-color: #7e7777;
+            background-color: #880d0db6;
             padding: 10px;
             border-radius: 5px;
             display: block;
-            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.952);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.308);
         }
+
         .task-list a:hover {
-            background-color: #8f8f8f;
-            color: #b3b3b3;
+            background-color: #ff000052;
+            color: #ffffff;
         }
 
         p {
@@ -42,6 +66,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <h1>Hub de Tarefas</h1>
@@ -51,10 +76,12 @@
         <li><a href="aula_1/home.html" target="_blank">Aula 1 - Tarefa - Página Pessoal</a></li>
         <li><a href="aula_2/T1/forms1.html" target="_blank">Aula 2 - Tarefa 1 - Todos os recursos de formulário</a></li>
         <li><a href="aula_2/T2/forms2.html" target="_blank">Aula 2 - Tarefa 2 - Formulário</a></li>
-        <li><a href="aula_3/Tarefa/home.html" target="_blank">Aula 3 - Tarefa - Estilizar página pessoal com CSS</a></li>
+        <li><a href="aula_3/Tarefa/home.html" target="_blank">Aula 3 - Tarefa - Estilizar página pessoal com CSS</a>
+        </li>
         <li><a href="aula_4/hub_sapos.html" target="_blank">Aula 4 - Tarefa - Flexbox Sapos</a></li>
-        
+
     </ul>
 
 </body>
+
 </html>
