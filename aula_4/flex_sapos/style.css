@@ -16,9 +16,9 @@ nav {
     background-color: #f44336;
     color: white;
     padding: 10px 20px;
-    border: 2px solid #770a03;
     border-radius: 5px;
     font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .next-button {
@@ -26,9 +26,9 @@ nav {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
-    border: 2px solid #145214;
     border-radius: 5px;
     font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .return-button {
@@ -36,27 +36,37 @@ nav {
     background-color: #00c3ff;
     color: white;
     padding: 10px 20px;
-    border: 2px solid #017083;
     border-radius: 5px;
     font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .next-button:hover {
     background-color: #45a049;
+    transform: scale(1.05);
 }
 
 .prev-button:hover {
     background-color: #e53935;
+    transform: scale(1.05);
 }
 
 .return-button:hover {
     background-color: #02afe4;
+    transform: scale(1.05);
 }
 
-h1{
-    text-align: center;
+h1 {
+    justify-content: center;
+    display: flex;
     margin: 0 auto;
     margin-top: 15px;
+    background-color: #00b9a4;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 2.5rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 div {
@@ -104,7 +114,7 @@ body {
 
 .ex5 {
     display: flex;
-    align-items: flex-end;     
+    align-items: flex-end;
 }
 
 .ex6 {
@@ -155,15 +165,17 @@ body {
 }
 
 .ex14 {
-    display: flex;          
+    display: flex;
 }
+
 .ex14Amarelo {
     order: 3;
 }
 
 .ex15 {
-    display: flex;          
+    display: flex;
 }
+
 .ex15Vermelho {
     order: -1;
 }
@@ -172,6 +184,7 @@ body {
     display: flex;
     align-items: flex-start;
 }
+
 .ex16Amarelo {
     align-self: flex-end;
 }
@@ -180,6 +193,7 @@ body {
     display: flex;
     align-items: flex-start;
 }
+
 .ex17Amarelo {
     order: 1;
     align-self: flex-end;
