@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* Corrected value */
+
 }
 
 body {
@@ -12,7 +12,6 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
 }
 
 img {
@@ -33,12 +32,6 @@ p {
     text-align: justify;
     color: #6F7CB2;
     margin-top: 16px;
-}
-
-main {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
 }
 
 section {
