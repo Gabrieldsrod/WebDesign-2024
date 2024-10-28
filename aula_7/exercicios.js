@@ -76,7 +76,6 @@ function inverterString(texto) {
     return texto.split('').reverse().join('');
 }
 
-// Exemplo de uso
 let resultado = inverterString("Facens");
 console.log(resultado);
 
