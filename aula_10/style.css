@@ -1,5 +1,5 @@
 body {
-   font-family: 'Courier New', Courier, monospace;
+font-family: 'Comic Sans MS', cursive, sans-serif;
     background-color: #f0f0f0;
     color: #333;
     margin: 0;
@@ -34,6 +34,10 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
 }
 
 button {
