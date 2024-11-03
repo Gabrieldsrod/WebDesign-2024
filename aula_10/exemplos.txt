@@ -1,0 +1,57 @@
+https://mockapi.io/projects
+
+[
+    {
+        "nome": "João",
+        "idade": 25,
+        "cidade": "São Paulo"
+    },
+    {
+        "nome": "Maria",
+        "idade": 30,
+        "cidade": "Rio de Janeiro"
+    },
+    {
+        "nome": "José",
+        "idade": 35,
+        "cidade": "Curitiba"
+    }
+]
+
+
+
+
+
+
+
+
+// function displayConsole(msg) {
+//     console.log(msg);
+// }
+
+
+// function displayHTML(msg) {
+//     document.querySelector('titulo').innerHTML = msg;
+// }
+
+
+
+
+// function soma(num1, num2, callback) {
+//     let result = num1 + num2;
+//     callback(result);
+// }
+
+
+// soma(2, 3, displayConsole);
+
+
+let file = "db.json";
+
+
+fetch(file)
+    .then(response => response.json())
+    .then(myArray => {
+        console.log(myArray);
+        document.querySelector('#txt').innerHTML = myArray[2].nome;
+    });
