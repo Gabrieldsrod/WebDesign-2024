@@ -123,9 +123,17 @@ console.log('');
 
 // Exercício 10
 
-function verificarPalindromo(texto) {
-    let textoInvertido = texto.split('').reverse().join('');
+// function verificarPalindromo(texto) {
+//     let textoInvertido = texto.split('').reverse().join('');
     
+//     return texto === textoInvertido;
+// }
+
+function verificarPalindromo(texto) {
+    let textoInvertido = '';
+    for (let i = texto.length - 1; i >= 0; i--) {
+        textoInvertido += texto[i];
+    }
     return texto === textoInvertido;
 }
 

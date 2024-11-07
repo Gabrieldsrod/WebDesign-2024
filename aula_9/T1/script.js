@@ -19,6 +19,4 @@ document.querySelector('#b-audio').onclick = function() {
 document.querySelector('#b1').onclick = function() {
     var elemento = document.getElementById('b1');
     elemento.classList.toggle("remove-estilo");
-
-    
 };

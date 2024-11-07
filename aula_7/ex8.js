@@ -8,6 +8,6 @@ function contarVogais(string) {
     }
     return contagemVogais;
 }
-console.log("O número de vogais em -" + " Paraleleipedo: " + contarVogais("Paralelepipedo"));
+console.log("O número de vogais em -" + " Paralelepipedo: " + contarVogais("Paralelepipedo"));
 
 console.log('');

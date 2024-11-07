@@ -2,7 +2,7 @@
     a = "Fabio";
     b = "Colombini";
     
-    return a + b;
+    return a + " " + b;
 }
 
 console.log(nome());

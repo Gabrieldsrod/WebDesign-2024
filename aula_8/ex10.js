@@ -2,7 +2,7 @@
 
 let alunos = {
     nome: ["Gabriel", "João", "Maria", "José"],
-    idade: [19, 20, 16, 17],
+    idade: [19, 16, 20, 17],
     curso: ["Engenharia da Computação", "Engenharia da Computação", "Engenharia da Computação", "Engenharia da Computação"],
     matricula: [248103, 248104, 248105, 248106]
 };
