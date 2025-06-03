@@ -1,0 +1,67 @@
+# Ignorar dependências e arquivos de build
+node_modules/
+dist/
+build/
+.env
+.env.*
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+coverage/
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# Ignorar pastas e arquivos de configuração do VSCode
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos temporários do sistema
+Thumbs.db
+Desktop.ini
+
+# Ignorar arquivos de cache
+.cache/
+.next/
+out/
+
+# Ignorar arquivos de produção
+*.min.js
+*.map
+
+# Ignorar arquivos de uploads temporários
+uploads/
+
+# Ignorar arquivos de testes
+*.test.js
+*.spec.js
+coverage/
+
+# Ignorar arquivos de exportação
+*.exported*
+
+# Ignorar arquivos de backup
+*~
+
+# Ignorar arquivos do Word e PowerPoint
+*.doc
+*.docx
+*.dot
+*.dotx
+*.ppt
+*.pptx
+*.pps
+*.ppsx
+*.pot
+*.potx
